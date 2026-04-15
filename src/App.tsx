@@ -154,10 +154,10 @@ const copy: Record<Locale, Copy> = {
     ],
     quickLinks: sharedQuickLinks.zh,
     featureCards: [
-      { title: '雅致现场', subtitle: '适合优雅而亲密的演出空间', href: '#repertoire', image: '/assets/card-guzheng.svg' },
-      { title: '文化活动', subtitle: '适合多种文化交流与艺术场景', href: '#program-pipa', image: '/assets/card-pipa.svg' },
-      { title: '教学与体验', subtitle: '乐器介绍、示范与学习', href: '#program-erhu', image: '/assets/card-erhu.svg' },
-      { title: '节日庆祝', subtitle: '从细腻到热烈皆可定制', href: '#program-dialogue', image: '/assets/card-dialogue.svg' },
+      { title: '雅致现场', subtitle: '适合优雅而亲密的演出空间', href: '#about', image: '/assets/card-guzheng.svg' },
+      { title: '文化活动', subtitle: '适合多种文化交流与艺术场景', href: '#programs', image: '/assets/card-pipa.svg' },
+      { title: '教学与体验', subtitle: '乐器介绍、示范与学习', href: '#repertoire', image: '/assets/card-erhu.svg' },
+      { title: '节日庆祝', subtitle: '从细腻到热烈皆可定制', href: '#workshops', image: '/assets/card-dialogue.svg' },
     ],
     archivePanels: [
       { id: 'about', eyebrow: '艺术团介绍', title: '风华艺术团', description: '风华是一支立足荷兰的亚洲音乐艺术团，致力于把传统民族器乐之美带给当代观众。我们以中华音乐为核心，也面向更广阔的亚洲器乐交流，带来温暖、自然、有感染力的现场演出。' },
@@ -224,10 +224,10 @@ const copy: Record<Locale, Copy> = {
     ],
     quickLinks: sharedQuickLinks.en,
     featureCards: [
-      { title: 'Elegant Performances', subtitle: 'intimate and refined live music', href: '#repertoire', image: '/assets/card-guzheng.svg' },
-      { title: 'Cultural Events', subtitle: 'for cultural exchange and live settings', href: '#program-pipa', image: '/assets/card-pipa.svg' },
-      { title: 'Workshops & Teaching', subtitle: 'instrument introductions and learning', href: '#program-erhu', image: '/assets/card-erhu.svg' },
-      { title: 'Festival Celebrations', subtitle: 'from refined to joyful and energetic', href: '#program-dialogue', image: '/assets/card-dialogue.svg' },
+      { title: 'Elegant Performances', subtitle: 'intimate and refined live music', href: '#about', image: '/assets/card-guzheng.svg' },
+      { title: 'Cultural Events', subtitle: 'for cultural exchange and live settings', href: '#programs', image: '/assets/card-pipa.svg' },
+      { title: 'Workshops & Teaching', subtitle: 'instrument introductions and learning', href: '#repertoire', image: '/assets/card-erhu.svg' },
+      { title: 'Festival Celebrations', subtitle: 'from refined to joyful and energetic', href: '#workshops', image: '/assets/card-dialogue.svg' },
     ],
     archivePanels: [
       { id: 'about', eyebrow: 'Ensemble Profile', title: 'Fenghua', description: 'Fenghua is a Netherlands-based Asian music ensemble bringing the beauty of traditional instruments to contemporary audiences. Rooted in Chinese music and open to a wider Asian instrumental dialogue, we create performances that feel warm, expressive, and alive.' },
@@ -294,10 +294,10 @@ const copy: Record<Locale, Copy> = {
     ],
     quickLinks: sharedQuickLinks.nl,
     featureCards: [
-      { title: 'Elegante Optredens', subtitle: 'intieme en verfijnde live muziek', href: '#repertoire', image: '/assets/card-guzheng.svg' },
-      { title: 'Culturele Activiteiten', subtitle: 'voor culturele uitwisseling en live settings', href: '#program-pipa', image: '/assets/card-pipa.svg' },
-      { title: 'Workshops & Les', subtitle: 'instrumentintroducties en educatie', href: '#program-erhu', image: '/assets/card-erhu.svg' },
-      { title: 'Feestelijke Vieringen', subtitle: 'van verfijnd tot vrolijk en energiek', href: '#program-dialogue', image: '/assets/card-dialogue.svg' },
+      { title: 'Elegante Optredens', subtitle: 'intieme en verfijnde live muziek', href: '#about', image: '/assets/card-guzheng.svg' },
+      { title: 'Culturele Activiteiten', subtitle: 'voor culturele uitwisseling en live settings', href: '#programs', image: '/assets/card-pipa.svg' },
+      { title: 'Workshops & Les', subtitle: 'instrumentintroducties en educatie', href: '#repertoire', image: '/assets/card-erhu.svg' },
+      { title: 'Feestelijke Vieringen', subtitle: 'van verfijnd tot vrolijk en energiek', href: '#workshops', image: '/assets/card-dialogue.svg' },
     ],
     archivePanels: [
       { id: 'about', eyebrow: 'Profiel', title: 'Fenghua', description: 'Fenghua is een in Nederland gevestigd Aziatisch muziekensemble dat de schoonheid van traditionele instrumenten naar een hedendaags publiek brengt. Geworteld in Chinese muziek en open voor een bredere Aziatische instrumentale dialoog, maken wij optredens die warm, expressief en levendig aanvoelen.' },
@@ -364,10 +364,10 @@ const copy: Record<Locale, Copy> = {
     ],
     quickLinks: sharedQuickLinks.de,
     featureCards: [
-      { title: 'Elegante Auftritte', subtitle: 'intime und stilvolle Live-Musik', href: '#repertoire', image: '/assets/card-guzheng.svg' },
-      { title: 'Kulturveranstaltungen', subtitle: 'für kulturellen Austausch und Live-Formate', href: '#program-pipa', image: '/assets/card-pipa.svg' },
-      { title: 'Workshops & Unterricht', subtitle: 'Instrumentenvorstellung und Lernen', href: '#program-erhu', image: '/assets/card-erhu.svg' },
-      { title: 'Festliche Feiern', subtitle: 'von fein bis freudig und energiegeladen', href: '#program-dialogue', image: '/assets/card-dialogue.svg' },
+      { title: 'Elegante Auftritte', subtitle: 'intime und stilvolle Live-Musik', href: '#about', image: '/assets/card-guzheng.svg' },
+      { title: 'Kulturveranstaltungen', subtitle: 'für kulturellen Austausch und Live-Formate', href: '#programs', image: '/assets/card-pipa.svg' },
+      { title: 'Workshops & Unterricht', subtitle: 'Instrumentenvorstellung und Lernen', href: '#repertoire', image: '/assets/card-erhu.svg' },
+      { title: 'Festliche Feiern', subtitle: 'von fein bis freudig und energiegeladen', href: '#workshops', image: '/assets/card-dialogue.svg' },
     ],
     archivePanels: [
       { id: 'about', eyebrow: 'Ensembleprofil', title: 'Fenghua', description: 'Fenghua ist ein in den Niederlanden ansässiges asiatisches Musikensemble, das die Schönheit traditioneller Instrumente einem zeitgenössischen Publikum näherbringt. Verwurzelt in chinesischer Musik und offen für einen breiteren asiatischen Instrumentaldialog schaffen wir Aufführungen, die warm, ausdrucksstark und lebendig wirken.' },
