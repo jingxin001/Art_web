@@ -101,8 +101,8 @@ const sharedQuickLinks = {
 const performanceGalleryItems: GalleryItem[] = [
   { image: '/\u6f14\u51fa\u7167\u7247/\u56e2\u4f535.jpg', layout: 'featured' },
   { image: '/\u6f14\u51fa\u7167\u7247/\u8428\u514b\u65af1.jpg', layout: 'featured' },
-  { image: '/\u6f14\u51fa\u7167\u7247/\u53e4\u7b5d6.jpg' },
   { image: '/\u6f14\u51fa\u7167\u7247/\u7435\u74362.jpg' },
+  { image: '/\u6f14\u51fa\u7167\u7247/\u53e4\u7b5d6.jpg' },
   { image: '/\u6f14\u51fa\u7167\u7247/\u8428\u514b\u65af2.jpg', layout: 'featured' },
   { image: '/\u6f14\u51fa\u7167\u7247/\u56e2\u4f53\u5408\u7167.jpg', layout: 'featured' },
   { image: '/\u6f14\u51fa\u7167\u7247/\u56e2\u4f53\u5408\u71672.jpg', layout: 'featured' },
