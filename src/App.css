@@ -897,7 +897,18 @@
 }
 
 @media (max-width: 720px) {
+  .site-header__bar {
+    grid-template-columns: auto minmax(0, 1fr);
+    gap: 0.65rem;
+    padding: 0.85rem 0.85rem 0.6rem;
+  }
+
+  .site-header__bar > div:first-child {
+    display: none;
+  }
+
   .site-header__actions {
+    justify-self: end;
     gap: 0.45rem;
   }
 
@@ -907,20 +918,31 @@
   }
 
   .language-switcher__button {
-    min-width: 2rem;
+    min-width: 1.78rem;
     height: 2rem;
-    padding: 0 0.45rem;
+    padding: 0 0.36rem;
     font-size: 0.6rem;
   }
 
-  .site-header__bar {
-    padding-top: 1rem;
+  .header-button {
+    width: 2.45rem;
+    height: 2.45rem;
+  }
+
+  .menu-button {
+    width: 2.65rem;
+    height: 2.45rem;
+    padding: 0 0.7rem;
   }
 
   .site-brand__seal {
     width: 2.4rem;
     height: 2.4rem;
     font-size: 1.15rem;
+  }
+
+  .site-brand__text {
+    display: none;
   }
 
   .site-brand__text strong {
@@ -942,6 +964,15 @@
   .hero-side-logo {
     width: min(11rem, 48vw);
     margin-bottom: 1rem;
+    padding: 0.65rem 0.7rem;
+    border-color: rgba(255, 255, 255, 0.035);
+    background: rgba(255, 255, 255, 0.015);
+    backdrop-filter: none;
+    box-shadow: none;
+  }
+
+  .hero-side-logo img {
+    content: url('/assets/fenghua-logo-white-transparent.png');
   }
 
   .hero-wordmark {
