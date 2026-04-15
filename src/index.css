@@ -1,0 +1,75 @@
+:root {
+  --color-text: #f4f2eb;
+  --color-text-muted: rgba(244, 242, 235, 0.64);
+  --color-bg: #000;
+  --font-body: Georgia, 'Times New Roman', serif;
+  --font-display: 'Baskerville Old Face', Baskerville, Garamond, 'Times New Roman', serif;
+  font-family: var(--font-body);
+  line-height: 1.45;
+  font-weight: 400;
+  color: var(--color-text);
+  background: var(--color-bg);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+[id] {
+  scroll-margin-top: 9rem;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background:
+    radial-gradient(circle at 50% 0, rgba(255, 255, 255, 0.08), transparent 24%),
+    linear-gradient(180deg, #0d0d0d, #000 24%, #050505 100%);
+  color: var(--color-text);
+}
+
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  background:
+    linear-gradient(90deg, transparent 0, rgba(255, 255, 255, 0.02) 48%, transparent 100%),
+    repeating-linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.02) 0,
+      rgba(255, 255, 255, 0.02) 1px,
+      transparent 1px,
+      transparent 56px
+    );
+  opacity: 0.22;
+  mix-blend-mode: screen;
+}
+
+body.overlay-open {
+  overflow: hidden;
+}
+
+a,
+button,
+input {
+  font: inherit;
+}
+
+button {
+  color: inherit;
+}
+
+#root {
+  min-height: 100vh;
+}

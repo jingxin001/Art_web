@@ -1,0 +1,33 @@
+<svg width="800" height="1200" viewBox="0 0 800 1200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="400" y1="0" x2="400" y2="1200" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#111"/>
+      <stop offset="1" stop-color="#020202"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(420 246) rotate(90) scale(300 276)">
+      <stop stop-color="#F4F0E7"/>
+      <stop offset="0.42" stop-color="#D8D5CC" stop-opacity="0.42"/>
+      <stop offset="1" stop-color="#111" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="soft" x="-120" y="-120" width="1040" height="1440" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="24"/>
+    </filter>
+  </defs>
+  <rect width="800" height="1200" fill="url(#bg)"/>
+  <rect width="800" height="1200" fill="#000"/>
+  <path d="M73 97L252 374H225L0 143V97H73Z" fill="#FFF" fill-opacity="0.07"/>
+  <path d="M661 0L517 333H489L608 0H661Z" fill="#FFF" fill-opacity="0.05"/>
+  <g filter="url(#soft)">
+    <ellipse cx="420" cy="244" rx="162" ry="160" fill="url(#glow)"/>
+    <circle cx="404" cy="672" r="246" fill="#131313"/>
+    <circle cx="408" cy="675" r="197" stroke="#D8D4CB" stroke-opacity="0.22" stroke-width="26"/>
+    <circle cx="408" cy="675" r="122" stroke="#F4F0E7" stroke-opacity="0.16" stroke-width="48"/>
+    <circle cx="408" cy="675" r="34" fill="#EEE9DD" fill-opacity="0.46"/>
+    <circle cx="591" cy="907" r="152" fill="#0B0B0B"/>
+  </g>
+  <rect x="164" y="902" width="472" height="93" rx="18" fill="#060606"/>
+  <rect x="215" y="938" width="280" height="22" rx="11" fill="#E9E4D9" fill-opacity="0.18"/>
+  <rect x="515" y="932" width="72" height="34" rx="17" fill="#E9E4D9" fill-opacity="0.24"/>
+  <circle cx="596" cy="949" r="12" fill="#F3EEE4" fill-opacity="0.32"/>
+  <path d="M80 1120C211 1043 327 1011 424 1011C513 1011 619 1044 736 1120V1200H80V1120Z" fill="#080808"/>
+</svg>

@@ -1,0 +1,29 @@
+<svg width="1600" height="1100" viewBox="0 0 1600 1100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="1100" fill="#020202"/>
+  <ellipse cx="792" cy="396" rx="314" ry="230" fill="url(#glow)" opacity="0.7"/>
+  <ellipse cx="816" cy="376" rx="214" ry="150" fill="#F4F2EB" opacity="0.09"/>
+  <path d="M251 940C392 868 495 731 561 542C622 366 713 248 833 188C955 128 1102 140 1274 224" stroke="#F4F2EB" stroke-opacity="0.42" stroke-width="2.8"/>
+  <path d="M341 930C463 842 550 712 602 542C657 361 733 258 830 236C928 213 1054 245 1208 330" stroke="#F4F2EB" stroke-opacity="0.18" stroke-width="1.5"/>
+  <path d="M524 868C623 823 698 744 749 630C803 505 863 422 930 381C999 339 1082 328 1179 348" stroke="#F4F2EB" stroke-opacity="0.4" stroke-width="2"/>
+  <path d="M603 780C634 657 704 550 815 460C913 380 1028 348 1162 362" stroke="#F4F2EB" stroke-opacity="0.5" stroke-width="5" stroke-linecap="round"/>
+  <path d="M567 777C640 844 731 880 842 885C957 890 1054 854 1133 777" stroke="#F4F2EB" stroke-opacity="0.24" stroke-width="3"/>
+  <path d="M760 334L730 812" stroke="#F4F2EB" stroke-opacity="0.72" stroke-width="4" stroke-linecap="round"/>
+  <path d="M811 318L785 820" stroke="#F4F2EB" stroke-opacity="0.62" stroke-width="3" stroke-linecap="round"/>
+  <path d="M867 329L847 814" stroke="#F4F2EB" stroke-opacity="0.54" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M942 356L935 780" stroke="#F4F2EB" stroke-opacity="0.28" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M1000 389L1013 740" stroke="#F4F2EB" stroke-opacity="0.18" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M680 452C712 435 759 430 821 440C899 453 965 453 1018 440" stroke="#F4F2EB" stroke-opacity="0.72" stroke-width="7" stroke-linecap="round"/>
+  <path d="M653 546C742 570 855 576 991 564" stroke="#F4F2EB" stroke-opacity="0.56" stroke-width="5" stroke-linecap="round"/>
+  <path d="M622 646C758 676 896 677 1036 648" stroke="#F4F2EB" stroke-opacity="0.42" stroke-width="3.5" stroke-linecap="round"/>
+  <path d="M585 760C743 791 909 790 1082 754" stroke="#F4F2EB" stroke-opacity="0.28" stroke-width="2.2" stroke-linecap="round"/>
+  <circle cx="349" cy="244" r="2.2" fill="#F4F2EB" fill-opacity="0.8"/>
+  <circle cx="1282" cy="276" r="1.8" fill="#F4F2EB" fill-opacity="0.7"/>
+  <circle cx="1189" cy="163" r="1.4" fill="#F4F2EB" fill-opacity="0.48"/>
+  <circle cx="265" cy="336" r="1.4" fill="#F4F2EB" fill-opacity="0.48"/>
+  <defs>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(792 396) rotate(90) scale(230 314)">
+      <stop stop-color="#FFFFFF" stop-opacity="0.34"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+</svg>

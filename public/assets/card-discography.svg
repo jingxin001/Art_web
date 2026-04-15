@@ -1,0 +1,35 @@
+<svg width="800" height="1200" viewBox="0 0 800 1200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="400" y1="0" x2="400" y2="1200" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#151515"/>
+      <stop offset="1" stop-color="#020202"/>
+    </linearGradient>
+    <radialGradient id="light" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(422 244) rotate(90) scale(282 252)">
+      <stop stop-color="#F5F1E8"/>
+      <stop offset="0.44" stop-color="#D6D3CA" stop-opacity="0.36"/>
+      <stop offset="1" stop-color="#111" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="blur" x="-120" y="-120" width="1040" height="1440" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+  </defs>
+  <rect width="800" height="1200" fill="url(#bg)"/>
+  <rect width="800" height="1200" fill="#000"/>
+  <path d="M122 0L315 455H269L53 76L122 0Z" fill="#FFF" fill-opacity="0.07"/>
+  <path d="M638 0L499 308H473L585 0H638Z" fill="#FFF" fill-opacity="0.05"/>
+  <g filter="url(#blur)">
+    <ellipse cx="422" cy="244" rx="154" ry="148" fill="url(#light)"/>
+  </g>
+  <g opacity="0.9">
+    <rect x="168" y="418" width="425" height="558" rx="22" transform="rotate(-10 168 418)" fill="#111"/>
+    <rect x="214" y="355" width="424" height="559" rx="22" transform="rotate(5 214 355)" fill="#1B1B1B"/>
+    <rect x="182" y="317" width="424" height="559" rx="22" fill="#050505"/>
+    <circle cx="394" cy="595" r="149" fill="#151515"/>
+    <circle cx="394" cy="595" r="125" stroke="#F2EDE2" stroke-opacity="0.18" stroke-width="20"/>
+    <circle cx="394" cy="595" r="54" fill="#EEE7DB" fill-opacity="0.26"/>
+    <rect x="231" y="823" width="327" height="20" rx="10" fill="#F0EBE0" fill-opacity="0.18"/>
+    <rect x="231" y="870" width="275" height="16" rx="8" fill="#F0EBE0" fill-opacity="0.12"/>
+    <rect x="231" y="911" width="301" height="16" rx="8" fill="#F0EBE0" fill-opacity="0.1"/>
+  </g>
+  <path d="M0 1072C98 1023 186 999 279 1000C385 1001 496 1036 641 1110L800 1200H0V1072Z" fill="#090909"/>
+</svg>
