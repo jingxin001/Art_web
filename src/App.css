@@ -606,6 +606,33 @@
   word-break: break-word;
 }
 
+.channel-panel strong a,
+.channel-panel__copy {
+  color: inherit;
+  font: inherit;
+  letter-spacing: inherit;
+  line-height: inherit;
+  text-transform: inherit;
+}
+
+.channel-panel strong a {
+  text-decoration: none;
+}
+
+.channel-panel strong a:hover,
+.channel-panel__copy:hover {
+  color: var(--color-text);
+}
+
+.channel-panel__copy {
+  appearance: none;
+  display: inline;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+}
+
 .legal-grid {
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }

@@ -661,7 +661,6 @@ function App() {
           <div className="gallery-showcase__heading">
             <p className="gallery-showcase__eyebrow">{t.galleryLabel}</p>
             <h2>{t.galleryTitle}</h2>
-            <p>{t.galleryIntro}</p>
           </div>
 
           <div ref={galleryGridRef} className="gallery-showcase__grid">
@@ -691,7 +690,23 @@ function App() {
           {t.channelPanels.map((panel) => (
             <article key={panel.id} className="channel-panel" id={panel.id}>
               <p className="channel-panel__title">{panel.title}</p>
-              <strong>{panel.handle}</strong>
+              {panel.id === 'contact' ? (
+                <strong>
+                  <a href={`mailto:${panel.handle}`}>{panel.handle}</a>
+                </strong>
+              ) : panel.id === 'phone' ? (
+                <strong>
+                  <button
+                    className="channel-panel__copy"
+                    type="button"
+                    onClick={() => navigator.clipboard?.writeText(panel.handle)}
+                  >
+                    {panel.handle}
+                  </button>
+                </strong>
+              ) : (
+                <strong>{panel.handle}</strong>
+              )}
               <p>{panel.description}</p>
             </article>
           ))}
