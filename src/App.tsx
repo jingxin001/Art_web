@@ -101,6 +101,8 @@ const sharedQuickLinks = {
 const performanceGalleryItems: GalleryItem[] = [
   { image: '/\u6f14\u51fa\u7167\u7247/\u56e2\u4f535.jpg', layout: 'featured' },
   { image: '/\u6f14\u51fa\u7167\u7247/\u8428\u514b\u65af1.jpg', layout: 'featured' },
+  { image: '/\u6f14\u51fa\u7167\u7247/\u53e4\u7b5d6.jpg' },
+  { image: '/\u6f14\u51fa\u7167\u7247/\u7435\u74362.jpg' },
   { image: '/\u6f14\u51fa\u7167\u7247/\u8428\u514b\u65af2.jpg', layout: 'featured' },
   { image: '/\u6f14\u51fa\u7167\u7247/\u56e2\u4f53\u5408\u7167.jpg', layout: 'featured' },
   { image: '/\u6f14\u51fa\u7167\u7247/\u56e2\u4f53\u5408\u71672.jpg', layout: 'featured' },
@@ -114,12 +116,9 @@ const performanceGalleryItems: GalleryItem[] = [
   { image: '/\u6f14\u51fa\u7167\u7247/\u5531\u6b4c2.jpg' },
   { image: '/\u6f14\u51fa\u7167\u7247/\u5531\u6b4c3.jpg' },
   { image: '/\u6f14\u51fa\u7167\u7247/\u53e4\u7b5d.jpg' },
-  { image: '/\u6f14\u51fa\u7167\u7247/\u53e4\u7b5d6.jpg' },
   { image: '/\u6f14\u51fa\u7167\u7247/\u53e4\u7b5d\u6b66\u672f.jpg' },
-  { image: '/\u6f14\u51fa\u7167\u7247/\u53e4\u7b5d\u7435\u74367.jpg' },
   { image: '/\u6f14\u51fa\u7167\u7247/\u53e4\u7b5d\u7435\u74368.jpg' },
   { image: '/\u6f14\u51fa\u7167\u7247/\u7435\u7436.jpg' },
-  { image: '/\u6f14\u51fa\u7167\u7247/\u7435\u74362.jpg' },
   { image: '/\u6f14\u51fa\u7167\u7247/\u7435\u7436\u53e4\u7b5d.jpg' },
   { image: '/\u6f14\u51fa\u7167\u7247/\u8df3\u821e.jpg' },
   { image: '/\u6f14\u51fa\u7167\u7247/\u56e2\u4f53.jpg' },
@@ -132,6 +131,7 @@ const performanceGalleryItems: GalleryItem[] = [
   { image: '/\u6f14\u51fa\u7167\u7247/\u821e\u8e483.jpg', layout: 'portrait' },
   { image: '/\u6f14\u51fa\u7167\u7247/\u821e\u8e484.jpg' },
   { image: '/\u6f14\u51fa\u7167\u7247/\u5f69\u6392.jpg' },
+  { image: '/\u6f14\u51fa\u7167\u7247/\u53e4\u7b5d\u7435\u74367.jpg' },
 ]
 
 const copy: Record<Locale, Copy> = {
