@@ -99,38 +99,38 @@ const sharedQuickLinks = {
 } satisfies Record<Locale, QuickLink[]>
 
 const performanceGalleryItems: GalleryItem[] = [
-  { image: '/\u6f14\u51fa\u7167\u7247/\u56e2\u4f535.jpg', layout: 'featured' },
-  { image: '/\u6f14\u51fa\u7167\u7247/\u8428\u514b\u65af1.jpg', layout: 'featured' },
-  { image: '/\u6f14\u51fa\u7167\u7247/\u7435\u74362.jpg' },
-  { image: '/\u6f14\u51fa\u7167\u7247/\u7435\u7436\u53e4\u7b5d.jpg' },
-  { image: '/\u6f14\u51fa\u7167\u7247/\u53e4\u7b5d6.jpg' },
-  { image: '/\u6f14\u51fa\u7167\u7247/\u8428\u514b\u65af2.jpg', layout: 'featured' },
-  { image: '/\u6f14\u51fa\u7167\u7247/\u56e2\u4f53\u5408\u7167.jpg', layout: 'featured' },
-  { image: '/\u6f14\u51fa\u7167\u7247/\u56e2\u4f53\u5408\u71673.jpg', layout: 'featured' },
-  { image: '/\u6f14\u51fa\u7167\u7247/\u53e4\u7b5d2.jpg', layout: 'portrait' },
-  { image: '/\u6f14\u51fa\u7167\u7247/\u821e\u8e486.jpg' },
-  { image: '/\u6f14\u51fa\u7167\u7247/\u89c2\u4f17\u7167\u7247.jpg' },
-  { image: '/\u6f14\u51fa\u7167\u7247/\u53e4\u7b5d\u7435\u74363.jpg' },
-  { image: '/\u6f14\u51fa\u7167\u7247/\u8428\u514b\u65af5.jpg' },
-  { image: '/\u6f14\u51fa\u7167\u7247/\u5531\u6b4c.jpg' },
-  { image: '/\u6f14\u51fa\u7167\u7247/\u5531\u6b4c2.jpg' },
-  { image: '/\u6f14\u51fa\u7167\u7247/\u5531\u6b4c3.jpg' },
-  { image: '/\u6f14\u51fa\u7167\u7247/\u53e4\u7b5d.jpg' },
-  { image: '/\u6f14\u51fa\u7167\u7247/\u53e4\u7b5d\u6b66\u672f.jpg' },
-  { image: '/\u6f14\u51fa\u7167\u7247/\u53e4\u7b5d\u7435\u74368.jpg' },
-  { image: '/\u6f14\u51fa\u7167\u7247/\u7435\u7436.jpg' },
-  { image: '/\u6f14\u51fa\u7167\u7247/90b906d332dbab87330e411995939db4.jpg' },
-  { image: '/\u6f14\u51fa\u7167\u7247/\u8df3\u821e.jpg' },
-  { image: '/\u6f14\u51fa\u7167\u7247/\u56e2\u4f53.jpg' },
-  { image: '/\u6f14\u51fa\u7167\u7247/\u56e2\u4f532.jpg' },
-  { image: '/\u6f14\u51fa\u7167\u7247/\u56e2\u4f533.jpg', layout: 'portrait' },
-  { image: '/\u6f14\u51fa\u7167\u7247/\u56e2\u4f534.jpg' },
-  { image: '/\u6f14\u51fa\u7167\u7247/\u56e2\u4f53\u5408\u71674.jpg' },
-  { image: '/\u6f14\u51fa\u7167\u7247/\u6b66\u672f8.jpg' },
-  { image: '/\u6f14\u51fa\u7167\u7247/\u821e\u8e48.jpg' },
-  { image: '/\u6f14\u51fa\u7167\u7247/\u821e\u8e484.jpg' },
-  { image: '/\u6f14\u51fa\u7167\u7247/\u5f69\u6392.jpg' },
-  { image: '/\u6f14\u51fa\u7167\u7247/\u53e4\u7b5d\u7435\u74367.jpg' },
+  { image: '/演出照片/团体5.jpg', layout: 'featured' },
+  { image: '/演出照片/萨克斯1.jpg', layout: 'featured' },
+  { image: '/演出照片/琵琶2.jpg' },
+  { image: '/演出照片/琵琶古筝.jpg' },
+  { image: '/演出照片/古筝6.jpg' },
+  { image: '/演出照片/萨克斯2.jpg', layout: 'featured' },
+  { image: '/演出照片/团体合照.jpg', layout: 'featured' },
+  { image: '/演出照片/团体合照3.jpg', layout: 'featured' },
+  { image: '/演出照片/古筝2.jpg', layout: 'portrait' },
+  { image: '/演出照片/舞蹈6.jpg' },
+  { image: '/演出照片/观众照片.jpg' },
+  { image: '/演出照片/古筝琵琶3.jpg' },
+  { image: '/演出照片/萨克斯5.jpg' },
+  { image: '/演出照片/唱歌.jpg' },
+  { image: '/演出照片/唱歌2.jpg' },
+  { image: '/演出照片/唱歌3.jpg' },
+  { image: '/演出照片/古筝.jpg' },
+  { image: '/演出照片/古筝武术.jpg' },
+  { image: '/演出照片/古筝琵琶8.jpg' },
+  { image: '/演出照片/琵琶.jpg' },
+  { image: '/演出照片/90b906d332dbab87330e411995939db4.jpg' },
+  { image: '/演出照片/跳舞.jpg' },
+  { image: '/演出照片/团体.jpg' },
+  { image: '/演出照片/团体2.jpg' },
+  { image: '/演出照片/团体3.jpg', layout: 'portrait' },
+  { image: '/演出照片/团体4.jpg' },
+  { image: '/演出照片/团体合照4.jpg' },
+  { image: '/演出照片/武术8.jpg' },
+  { image: '/演出照片/舞蹈.jpg' },
+  { image: '/演出照片/舞蹈4.jpg' },
+  { image: '/演出照片/彩排.jpg' },
+  { image: '/演出照片/古筝琵琶7.jpg' },
 ]
 
 const copy: Record<Locale, Copy> = {
@@ -140,53 +140,122 @@ const copy: Record<Locale, Copy> = {
     primaryNav: [
       { label: '首页', href: '#home' },
       { label: '关于我们', href: '#about' },
-      { label: '演出项目', href: '#programs' },
-      { label: '曲目风格', href: '#repertoire' },
-      { label: '教学工作坊', href: '#workshops' },
-      { label: '现场风格', href: '#gallery' },
+      { label: '现场演出', href: '#programs' },
+      { label: '教学工作坊', href: '#repertoire' },
+      { label: '私人活动', href: '#workshops' },
+      { label: '图片展示', href: '#gallery' },
       { label: '预约联系', href: '#contact' },
     ],
     footerLinks: [
-      { label: '演出项目', href: '#programs' },
+      { label: '现场演出', href: '#programs' },
+      { label: '图片展示', href: '#gallery' },
       { label: '预约联系', href: '#contact' },
-      { label: '隐私', href: '#privacy' },
     ],
     quickLinks: sharedQuickLinks.zh,
     featureCards: [
-      { title: '雅致现场', subtitle: '适合优雅而亲密的演出空间', href: '#about', image: '/assets/card-guzheng.svg' },
-      { title: '文化活动', subtitle: '适合多种文化交流与艺术场景', href: '#programs', image: '/assets/card-pipa.svg' },
-      { title: '教学与体验', subtitle: '乐器介绍、示范与学习', href: '#repertoire', image: '/assets/card-erhu.svg' },
-      { title: '节日庆祝', subtitle: '从细腻到热烈皆可定制', href: '#workshops', image: '/assets/card-dialogue.svg' },
+      { title: '关于风华', subtitle: '扎根荷兰十余年的艺术团', href: '#about', image: '/assets/card-guzheng.svg' },
+      { title: '现场演出', subtitle: '适用于文化节、社区活动与舞台演出', href: '#programs', image: '/assets/card-pipa.svg' },
+      { title: '教学工作坊', subtitle: '古筝与琵琶体验及文化互动', href: '#repertoire', image: '/assets/card-erhu.svg' },
+      { title: '私人活动', subtitle: '企业活动、私人庆典与定制演出', href: '#workshops', image: '/assets/card-dialogue.svg' },
     ],
     archivePanels: [
-      { id: 'about', eyebrow: '艺术团介绍', title: '风华艺术团', description: '风华是一支立足荷兰的亚洲音乐艺术团，致力于把传统民族器乐之美带给当代观众。我们以中华音乐为核心，也面向更广阔的亚洲器乐交流，带来温暖、自然、有感染力的现场演出。' },
-      { id: 'programs', eyebrow: '服务内容', title: '活动类型', description: '我们在荷兰承接多种文化活动与现场演出，包括咖啡馆、酒吧、小型艺术空间、节庆活动、文化交流项目、社区活动、私人活动、博物馆与画廊演出。' },
-      { id: 'repertoire', eyebrow: '音乐风格', title: '曲目风格', description: '我们的音乐可以根据场合灵活调整，从安静、沉浸、带有氛围感的演出，到热烈、欢庆、富有舞台能量的节目，都可以自然呈现。' },
-      { id: 'workshops', eyebrow: '教育推广', title: '教学工作坊', description: '我们也提供教学工作坊、讲解示范和器乐教学，帮助学生与观众了解演奏技法、音乐传统，以及每一种乐器独特的声音与文化背景。' },
-      { id: 'gallery', eyebrow: '音乐气质', title: '现场风格', description: '无论活动需要安静沉思的音乐氛围，还是更热闹、欢快、适合交流的现场感，我们都乐于根据观众、空间与活动气质来设计演出。' },
-      { id: 'program-pipa', eyebrow: '文化活动', title: '文化活动', description: '我们可以为各类文化活动提供现场音乐，包括文化交流、艺术分享会、咖啡馆与酒吧活动、社区项目以及不同规模的现场演出。' },
-      { id: 'program-erhu', eyebrow: '教学形式', title: '教学与体验', description: '我们的教学项目适合学校、社区项目与艺术机构，融合示范、讲解与互动体验，用轻松友好的方式带领观众认识亚洲民族乐器。' },
-      { id: 'program-dialogue', eyebrow: '舞台形式', title: '节日庆祝', description: '面对节庆活动、公共庆典与更大的舞台，我们也可以呈现更具动感和感染力的节目，把弦乐、吹管、节奏与舞台张力结合起来，形成热情而鲜明的现场体验。' },
+      {
+        id: 'about',
+        eyebrow: '风华艺术团介绍',
+        title: '风华艺术团',
+        description:
+          '风华艺术团扎根荷兰十余年，长期致力于中华传统音乐与艺术的传播。我们希望通过演出、文化活动与教学，为社区文化生活增添更多色彩，促进跨文化交流，也让更多人感受传统艺术的温度与魅力。',
+      },
+      {
+        id: 'programs',
+        eyebrow: '服务内容',
+        title: '现场演出',
+        description:
+          '我们提供现场演出，适用于文化节、社区活动、节庆庆典、艺术展演与舞台节目。演出形式可根据空间与观众调整，从细腻安静到热烈开阔，保持自然的文化气质。',
+      },
+      {
+        id: 'repertoire',
+        eyebrow: '教育推广',
+        title: '教学工作坊',
+        description:
+          '我们目前提供古筝和琵琶的入门与体验式工作坊，适合学校、社区及文化活动中的艺术互动、音乐欣赏与简单上手体验，是艺术推广与文化分享的一部分。',
+      },
+      {
+        id: 'workshops',
+        eyebrow: '定制活动',
+        title: '私人活动',
+        description:
+          '我们也承接私人及定制活动，包括企业活动、私人庆典、接待场合与特别文化项目，提供更贴合空间、节奏与观众氛围的演出安排。',
+      },
+      {
+        id: 'gallery',
+        eyebrow: '音乐气质',
+        title: '现场风格',
+        description:
+          '无论活动需要安静沉思的音乐氛围，还是更热闹、欢快、适合交流的现场感，我们都乐于根据观众、空间与活动气质来设计演出。',
+      },
+      {
+        id: 'program-pipa',
+        eyebrow: '文化活动',
+        title: '文化活动',
+        description:
+          '我们可以为各类文化活动提供现场音乐，包括文化交流、艺术分享会、咖啡馆与酒吧活动、社区项目以及不同规模的现场演出。',
+      },
+      {
+        id: 'program-erhu',
+        eyebrow: '教学形式',
+        title: '教学与体验',
+        description:
+          '我们的教学项目适合学校、社区项目与艺术机构，融合示范、讲解与互动体验，用轻松友好的方式带领观众认识亚洲民族乐器。',
+      },
+      {
+        id: 'program-dialogue',
+        eyebrow: '舞台形式',
+        title: '节日庆祝',
+        description:
+          '面对节庆活动、公共庆典与更大的舞台，我们也可以呈现更具动感和感染力的节目，把弦乐、吹管、节奏与舞台张力结合起来，形成热情而鲜明的现场体验。',
+      },
     ],
     channelPanels: [
-      { id: 'contact', title: '预约联系', handle: 'asian.art.performance@gmail.com', description: '欢迎荷兰各地的节庆活动、文化机构、餐饮空间、学校与社区合作伙伴联系我们。' },
-      { id: 'phone', title: '电话', handle: '0613530981', description: '如需演出、教学、文化交流活动或定制节目方案，欢迎随时联系。' },
+      {
+        id: 'contact',
+        title: '预约联系',
+        handle: 'asian.art.performance@gmail.com',
+        description: '欢迎荷兰各地的节庆活动、文化机构、餐饮空间、学校与社区合作伙伴联系我们。',
+      },
+      {
+        id: 'phone',
+        title: '电话',
+        handle: '0613530981',
+        description: '如需演出、教学、文化交流活动或定制节目方案，欢迎随时联系。',
+      },
     ],
     galleryLabel: '图片展示',
     galleryTitle: '演出与活动照片',
-    galleryIntro: '这里展示的是你现有照片里最适合首页的几类画面：正式舞台、艺术感独奏、排练状态、活动现场和观众氛围。整体会更像一个完整的演出作品墙。',
+    galleryIntro: '',
     galleryItems: performanceGalleryItems,
     legalPanels: [
-      { id: 'terms', eyebrow: '合作对象', description: '我们乐于与节庆主办方、文化机构、咖啡馆、酒吧、餐饮空间、学校、博物馆、画廊和社区项目合作，带来有特色且富有亲和力的现场音乐体验。' },
+      {
+        id: 'terms',
+        eyebrow: '合作对象',
+        description:
+          '我们乐于与节庆主办方、文化机构、咖啡馆、酒吧、餐饮空间、学校、博物馆、画廊和社区项目合作，带来有特色且富有亲和力的现场音乐体验。',
+      },
       { eyebrow: '预约联系', description: 'Email: asian.art.performance@gmail.com\nPhone: 0613530981' },
-      { id: 'privacy', eyebrow: '活动适配', description: '无论你正在策划温馨的文化夜、热闹的公共活动、跨文化项目，还是教育工作坊，我们都愿意为你的观众与场地量身安排合适的演出。' },
+      {
+        id: 'privacy',
+        eyebrow: '活动适配',
+        description:
+          '无论你正在策划温馨的文化夜、热闹的公共活动、跨文化项目，还是教育工作坊，我们都愿意为你的观众与场地量身安排合适的演出。',
+      },
     ],
     heroEyebrow: '立足荷兰的亚洲民族器乐现场演出',
-    heroCaption: '风华艺术团在荷兰提供富有感染力的现场演出、文化项目与器乐工作坊，音乐气质可以从安静细腻的氛围感，自然过渡到热烈、欢庆、充满能量的舞台表达。',
+    heroCaption:
+      '风华艺术团在荷兰提供富有感染力的现场演出、文化项目与器乐工作坊，音乐气质可以从安静细腻的氛围感，自然过渡到热烈、欢庆、充满能量的舞台表达。',
     heroQuote: '传统器乐，当代表达，温暖而难忘的现场氛围。',
     featuredAria: '特色内容',
     archiveAria: '艺术团信息',
-    channelsAria: '乐器与联系方式',
+    channelsAria: '联系信息',
     legalAria: '站点信息',
     footerAria: '页脚',
     footerQuickLinksAria: '页脚快捷链接',
@@ -194,14 +263,14 @@ const copy: Record<Locale, Copy> = {
     openSearchLabel: '打开搜索',
     openNavigationLabel: '打开导航',
     instrumentQuickLinksAria: '快捷链接',
-    homeAria: 'Fenghua 首页',
+    homeAria: '风华首页',
     closeOverlayLabel: '关闭遮罩层',
     closeMenuLabel: '关闭菜单',
     menuLabel: '菜单',
     mobileNavigationAria: '移动端导航',
     closeSearchLabel: '关闭搜索',
     searchLabel: '搜索艺术团内容',
-    searchPlaceholder: '搜索演出、乐器、工作坊...',
+    searchPlaceholder: '搜索演出、器乐、工作坊...',
     searchHint: '按回车关闭，或按 ESC 退出',
   },
   en: {
@@ -209,50 +278,119 @@ const copy: Record<Locale, Copy> = {
     brandSubtitle: 'Fenghua Arts Ensemble',
     primaryNav: [
       { label: 'Home', href: '#home' },
-      { label: 'About', href: '#about' },
-      { label: 'Programs', href: '#programs' },
-      { label: 'Repertoire', href: '#repertoire' },
-      { label: 'Workshops', href: '#workshops' },
-      { label: 'Atmosphere', href: '#gallery' },
+      { label: 'About Us', href: '#about' },
+      { label: 'Live Performance', href: '#programs' },
+      { label: 'Teaching Workshops', href: '#repertoire' },
+      { label: 'Private Events', href: '#workshops' },
+      { label: 'Gallery', href: '#gallery' },
       { label: 'Booking', href: '#contact' },
     ],
     footerLinks: [
-      { label: 'Programs', href: '#programs' },
+      { label: 'Live Performance', href: '#programs' },
+      { label: 'Gallery', href: '#gallery' },
       { label: 'Booking', href: '#contact' },
-      { label: 'Privacy', href: '#privacy' },
     ],
     quickLinks: sharedQuickLinks.en,
     featureCards: [
-      { title: 'Elegant Performances', subtitle: 'intimate and refined live music', href: '#about', image: '/assets/card-guzheng.svg' },
-      { title: 'Cultural Events', subtitle: 'for cultural exchange and live settings', href: '#programs', image: '/assets/card-pipa.svg' },
-      { title: 'Workshops & Teaching', subtitle: 'instrument introductions and learning', href: '#repertoire', image: '/assets/card-erhu.svg' },
-      { title: 'Festival Celebrations', subtitle: 'from refined to joyful and energetic', href: '#workshops', image: '/assets/card-dialogue.svg' },
+      { title: 'About Fenghua', subtitle: 'rooted in the Netherlands for over ten years', href: '#about', image: '/assets/card-guzheng.svg' },
+      { title: 'Live Performance', subtitle: 'for festivals, community events, and stage programmes', href: '#programs', image: '/assets/card-pipa.svg' },
+      { title: 'Teaching Workshops', subtitle: 'guzheng and pipa learning experiences', href: '#repertoire', image: '/assets/card-erhu.svg' },
+      { title: 'Private Events', subtitle: 'tailored performances for gatherings and celebrations', href: '#workshops', image: '/assets/card-dialogue.svg' },
     ],
     archivePanels: [
-      { id: 'about', eyebrow: 'Ensemble Profile', title: 'Fenghua', description: 'Fenghua is a Netherlands-based Asian music ensemble bringing the beauty of traditional instruments to contemporary audiences. Rooted in Chinese music and open to a wider Asian instrumental dialogue, we create performances that feel warm, expressive, and alive.' },
-      { id: 'programs', eyebrow: 'Performance Focus', title: 'Programs', description: 'We perform at a wide range of events across the Netherlands, including cafes, bars, intimate arts venues, festivals, cultural exchange programs, community events, private functions, museums, and galleries.' },
-      { id: 'repertoire', eyebrow: 'Concert Material', title: 'Repertoire', description: 'Our repertoire can be shaped to suit the occasion, from soft, meditative, and atmospheric sets to festive, high-energy programs full of colour, movement, and stage presence.' },
-      { id: 'workshops', eyebrow: 'Educational Work', title: 'Workshops', description: 'We also offer educational workshops, lecture-demonstrations, and instrumental teaching, introducing audiences and students to performance techniques, musical traditions, and the character of each instrument.' },
-      { id: 'gallery', eyebrow: 'Live Atmosphere', title: 'Atmosphere', description: 'Whether the setting is quiet and reflective or lively and celebratory, we love creating a musical atmosphere that suits the audience, the space, and the spirit of the event.' },
-      { id: 'program-pipa', eyebrow: 'Cultural Events', title: 'Cultural Events', description: 'We provide live music for a wide range of cultural events, including cultural exchange programs, arts gatherings, cafe and bar events, community activities, and performances of different scales.' },
-      { id: 'program-erhu', eyebrow: 'Educational Format', title: 'Workshops & Teaching', description: 'Our teaching sessions are suitable for schools, community programs, and arts organisations, combining demonstration, explanation, and hands-on musical discovery in a friendly and engaging format.' },
-      { id: 'program-dialogue', eyebrow: 'Stage Format', title: 'Festival Celebrations', description: 'For seasonal events, public celebrations, and larger stages, we can present more vibrant and dynamic sets that bring together rhythm, movement, and a welcoming festive atmosphere.' },
+      {
+        id: 'about',
+        eyebrow: 'About Us',
+        title: 'Fenghua',
+        description:
+          'Fenghua Arts Ensemble has been rooted in the Netherlands for the past decade, sharing the beauty of Chinese traditional music and arts with local audiences. Through performances, cultural activities, and teaching, we hope to enrich community cultural life, encourage exchange, and help more people experience the warmth of traditional arts.',
+      },
+      {
+        id: 'programs',
+        eyebrow: 'Services',
+        title: 'Live Performance',
+        description:
+          'We offer live performances for festivals, community events, stage programmes, cultural presentations, and festive celebrations. Each set is shaped to suit the space and audience, from intimate and reflective to lively and open.',
+      },
+      {
+        id: 'repertoire',
+        eyebrow: 'Education',
+        title: 'Teaching Workshops',
+        description:
+          'We currently offer introductory and educational workshops in guzheng and pipa, suitable for schools, community groups, cultural learning, music appreciation, and hands-on artistic experience.',
+      },
+      {
+        id: 'workshops',
+        eyebrow: 'Tailored Events',
+        title: 'Private Events',
+        description:
+          'We also create tailored performances for private events, including company gatherings, private celebrations, receptions, and special cultural occasions, with programmes shaped around the setting and audience.',
+      },
+      {
+        id: 'gallery',
+        eyebrow: 'Live Atmosphere',
+        title: 'Atmosphere',
+        description:
+          'Whether the setting is quiet and reflective or lively and celebratory, we love creating a musical atmosphere that suits the audience, the space, and the spirit of the event.',
+      },
+      {
+        id: 'program-pipa',
+        eyebrow: 'Cultural Events',
+        title: 'Cultural Events',
+        description:
+          'We provide live music for a wide range of cultural events, including cultural exchange programmes, arts gatherings, cafe and bar events, community activities, and performances of different scales.',
+      },
+      {
+        id: 'program-erhu',
+        eyebrow: 'Educational Format',
+        title: 'Workshops & Teaching',
+        description:
+          'Our teaching sessions are suitable for schools, community programmes, and arts organisations, combining demonstration, explanation, and hands-on musical discovery in a friendly and engaging format.',
+      },
+      {
+        id: 'program-dialogue',
+        eyebrow: 'Stage Format',
+        title: 'Festival Celebrations',
+        description:
+          'For seasonal events, public celebrations, and larger stages, we can present more vibrant and dynamic sets that bring together rhythm, movement, and a welcoming festive atmosphere.',
+      },
     ],
     channelPanels: [
-      { id: 'contact', title: 'Booking', handle: 'asian.art.performance@gmail.com', description: 'We would be delighted to hear from festivals, cultural organisations, hospitality venues, schools, and community partners across the Netherlands.' },
-      { id: 'phone', title: 'Phone', handle: '0613530981', description: 'Please get in touch for performances, workshops, cultural exchange programs, or a tailored live music concept for your event.' },
+      {
+        id: 'contact',
+        title: 'Booking',
+        handle: 'asian.art.performance@gmail.com',
+        description: 'We would be delighted to hear from festivals, cultural organisations, hospitality venues, schools, and community partners across the Netherlands.',
+      },
+      {
+        id: 'phone',
+        title: 'Phone',
+        handle: '0613530981',
+        description: 'Please get in touch for performances, workshops, cultural exchange programmes, or a tailored live music concept for your event.',
+      },
     ],
     galleryLabel: 'Image Gallery',
     galleryTitle: 'Performance & Event Gallery',
-    galleryIntro: 'These images were selected as the strongest first set for the homepage: a full stage scene, an artistic solo portrait, a rehearsal moment, a live event shot, and an audience atmosphere image.',
+    galleryIntro: '',
     galleryItems: performanceGalleryItems,
     legalPanels: [
-      { id: 'terms', eyebrow: 'Who We Work With', description: 'We love collaborating with festivals, cultural organisations, cafes, bars, hospitality venues, schools, museums, galleries, and community partners looking for a distinctive and welcoming live music experience.' },
+      {
+        id: 'terms',
+        eyebrow: 'Who We Work With',
+        description:
+          'We love collaborating with festivals, cultural organisations, cafes, bars, hospitality venues, schools, museums, galleries, and community partners looking for a distinctive and welcoming live music experience.',
+      },
       { eyebrow: 'Booking', description: 'Email: asian.art.performance@gmail.com\nPhone: 0613530981' },
-      { id: 'privacy', eyebrow: 'Event Fit', description: 'Whether you are planning an intimate cultural evening, a lively public event, a cross-cultural program, or an educational workshop, we are happy to shape a performance that fits your audience and space.' },
+      {
+        id: 'privacy',
+        eyebrow: 'Event Fit',
+        description:
+          'Whether you are planning an intimate cultural evening, a lively public event, a cross-cultural programme, or an educational workshop, we are happy to shape a performance that fits your audience and space.',
+      },
     ],
     heroEyebrow: 'Netherlands-based live Asian instrumental performance',
-    heroCaption: 'Fenghua offers expressive live performances, cultural programs, and instrumental workshops across the Netherlands, with music that moves naturally from quiet and atmospheric to vibrant, festive, and full of energy.',
+    heroCaption:
+      'Fenghua offers expressive live performances, cultural programmes, and instrumental workshops across the Netherlands, with music that moves naturally from quiet and atmospheric to vibrant, festive, and full of energy.',
     heroQuote: 'Traditional instruments, contemporary warmth, and memorable live atmosphere.',
     featuredAria: 'Featured destinations',
     archiveAria: 'Ensemble information',
@@ -271,7 +409,7 @@ const copy: Record<Locale, Copy> = {
     mobileNavigationAria: 'Mobile navigation',
     closeSearchLabel: 'Close search',
     searchLabel: 'Search the ensemble',
-    searchPlaceholder: 'Search programs, instruments, workshops...',
+    searchPlaceholder: 'Search performances, instruments, workshops...',
     searchHint: 'Press enter to close or ESC to exit',
   },
   nl: {
@@ -280,49 +418,118 @@ const copy: Record<Locale, Copy> = {
     primaryNav: [
       { label: 'Home', href: '#home' },
       { label: 'Over ons', href: '#about' },
-      { label: 'Programma’s', href: '#programs' },
-      { label: 'Repertoire', href: '#repertoire' },
-      { label: 'Workshops', href: '#workshops' },
-      { label: 'Sfeer', href: '#gallery' },
+      { label: 'Live Performance', href: '#programs' },
+      { label: 'Workshops', href: '#repertoire' },
+      { label: 'Privé-evenementen', href: '#workshops' },
+      { label: 'Galerij', href: '#gallery' },
       { label: 'Boeking', href: '#contact' },
     ],
     footerLinks: [
-      { label: 'Programma’s', href: '#programs' },
+      { label: 'Live Performance', href: '#programs' },
+      { label: 'Galerij', href: '#gallery' },
       { label: 'Boeking', href: '#contact' },
-      { label: 'Privacy', href: '#privacy' },
     ],
     quickLinks: sharedQuickLinks.nl,
     featureCards: [
-      { title: 'Elegante Optredens', subtitle: 'intieme en verfijnde live muziek', href: '#about', image: '/assets/card-guzheng.svg' },
-      { title: 'Culturele Activiteiten', subtitle: 'voor culturele uitwisseling en live settings', href: '#programs', image: '/assets/card-pipa.svg' },
-      { title: 'Workshops & Les', subtitle: 'instrumentintroducties en educatie', href: '#repertoire', image: '/assets/card-erhu.svg' },
-      { title: 'Feestelijke Vieringen', subtitle: 'van verfijnd tot vrolijk en energiek', href: '#workshops', image: '/assets/card-dialogue.svg' },
+      { title: 'Over Fenghua', subtitle: 'al meer dan tien jaar geworteld in Nederland', href: '#about', image: '/assets/card-guzheng.svg' },
+      { title: 'Live Performance', subtitle: 'voor festivals, community events en podiumprogramma’s', href: '#programs', image: '/assets/card-pipa.svg' },
+      { title: 'Workshops', subtitle: 'guzheng- en pipa-ervaringen', href: '#repertoire', image: '/assets/card-erhu.svg' },
+      { title: 'Privé-evenementen', subtitle: 'optredens op maat voor bijeenkomsten en vieringen', href: '#workshops', image: '/assets/card-dialogue.svg' },
     ],
     archivePanels: [
-      { id: 'about', eyebrow: 'Profiel', title: 'Fenghua', description: 'Fenghua is een in Nederland gevestigd Aziatisch muziekensemble dat de schoonheid van traditionele instrumenten naar een hedendaags publiek brengt. Geworteld in Chinese muziek en open voor een bredere Aziatische instrumentale dialoog, maken wij optredens die warm, expressief en levendig aanvoelen.' },
-      { id: 'programs', eyebrow: 'Waar Wij Optreden', title: 'Programma’s', description: 'Wij treden op bij een breed scala aan evenementen in heel Nederland, waaronder cafes, bars, intieme kunstlocaties, festivals, culturele uitwisselingsprogramma’s, community events, private gelegenheden, musea en galeries.' },
-      { id: 'repertoire', eyebrow: 'Muzikale Richting', title: 'Repertoire', description: 'Ons repertoire kan worden afgestemd op de gelegenheid: van zachte, meditatieve en atmosferische sets tot feestelijke, energieke programma’s vol kleur, beweging en podiumkracht.' },
-      { id: 'workshops', eyebrow: 'Educatie', title: 'Workshops', description: 'Wij bieden ook educatieve workshops, lecture-demonstrations en instrumentlessen aan, waarin publiek en studenten kennismaken met speeltechnieken, muzikale tradities en het karakter van elk instrument.' },
-      { id: 'gallery', eyebrow: 'Live Sfeer', title: 'Sfeer', description: 'Of de setting nu rustig en reflectief is of juist levendig en feestelijk, wij creëren graag een muzikale sfeer die past bij het publiek, de locatie en de geest van het evenement.' },
-      { id: 'program-pipa', eyebrow: 'Culturele Activiteiten', title: 'Culturele Activiteiten', description: 'Wij verzorgen live muziek voor uiteenlopende culturele activiteiten, waaronder culturele uitwisselingsprogramma’s, kunstbijeenkomsten, cafe- en barevenementen, community-projecten en optredens op verschillende schaalniveaus.' },
-      { id: 'program-erhu', eyebrow: 'Educatief Formaat', title: 'Workshops & Les', description: 'Onze lessessies zijn geschikt voor scholen, community-projecten en kunstorganisaties, met een combinatie van demonstratie, uitleg en praktische muzikale ontdekking in een vriendelijke en toegankelijke vorm.' },
-      { id: 'program-dialogue', eyebrow: 'Podiumformaat', title: 'Feestelijke Vieringen', description: 'Voor seizoensvieringen, publieke festiviteiten en grotere podia kunnen wij levendigere sets brengen met ritme, beweging en een warme, feestelijke uitstraling.' },
+      {
+        id: 'about',
+        eyebrow: 'Over ons',
+        title: 'Fenghua',
+        description:
+          'Fenghua Arts Ensemble is al meer dan tien jaar geworteld in Nederland en deelt de schoonheid van Chinese traditionele muziek en kunst met een breed publiek. Met optredens, culturele activiteiten en onderwijs willen wij het culturele leven in de gemeenschap verrijken, uitwisseling stimuleren en meer mensen de warmte van traditionele kunsten laten ervaren.',
+      },
+      {
+        id: 'programs',
+        eyebrow: 'Diensten',
+        title: 'Live Performance',
+        description:
+          'Wij verzorgen live optredens voor festivals, community events, podiumprogramma’s, culturele presentaties en feestelijke vieringen. Elke set wordt afgestemd op locatie en publiek, van intiem en verstild tot levendig en open.',
+      },
+      {
+        id: 'repertoire',
+        eyebrow: 'Educatie',
+        title: 'Workshops',
+        description:
+          'Wij bieden momenteel inleidende en educatieve workshops in guzheng en pipa, geschikt voor scholen, communitygroepen, culturele leeractiviteiten, muziekwaardering en praktische artistieke ervaring.',
+      },
+      {
+        id: 'workshops',
+        eyebrow: 'Op maat',
+        title: 'Privé-evenementen',
+        description:
+          'Wij verzorgen ook optredens op maat voor privé-evenementen, waaronder bedrijfsbijeenkomsten, particuliere vieringen, ontvangsten en bijzondere culturele gelegenheden, steeds afgestemd op de sfeer en het publiek.',
+      },
+      {
+        id: 'gallery',
+        eyebrow: 'Live sfeer',
+        title: 'Sfeer',
+        description:
+          'Of de setting nu rustig en reflectief is of juist levendig en feestelijk, wij creëren graag een muzikale sfeer die past bij het publiek, de locatie en de geest van het evenement.',
+      },
+      {
+        id: 'program-pipa',
+        eyebrow: 'Culturele activiteiten',
+        title: 'Culturele activiteiten',
+        description:
+          'Wij verzorgen live muziek voor uiteenlopende culturele activiteiten, waaronder culturele uitwisselingsprogramma’s, kunstbijeenkomsten, café- en barevenementen, communityprojecten en optredens op verschillende schaalniveaus.',
+      },
+      {
+        id: 'program-erhu',
+        eyebrow: 'Educatief format',
+        title: 'Workshops & les',
+        description:
+          'Onze lessessies zijn geschikt voor scholen, communityprojecten en kunstorganisaties, met een combinatie van demonstratie, uitleg en praktische muzikale ontdekking in een vriendelijke en toegankelijke vorm.',
+      },
+      {
+        id: 'program-dialogue',
+        eyebrow: 'Podiumformat',
+        title: 'Feestelijke vieringen',
+        description:
+          'Voor seizoensvieringen, publieke festiviteiten en grotere podia kunnen wij levendigere sets brengen met ritme, beweging en een warme, feestelijke uitstraling.',
+      },
     ],
     channelPanels: [
-      { id: 'contact', title: 'Boeking', handle: 'asian.art.performance@gmail.com', description: 'Wij horen graag van festivals, culturele organisaties, hospitalitylocaties, scholen en community-partners in heel Nederland.' },
-      { id: 'phone', title: 'Telefoon', handle: '0613530981', description: 'Neem gerust contact op voor optredens, workshops, culturele uitwisseling of een live muziekconcept op maat voor jouw evenement.' },
+      {
+        id: 'contact',
+        title: 'Boeking',
+        handle: 'asian.art.performance@gmail.com',
+        description: 'Wij horen graag van festivals, culturele organisaties, hospitalitylocaties, scholen en communitypartners in heel Nederland.',
+      },
+      {
+        id: 'phone',
+        title: 'Telefoon',
+        handle: '0613530981',
+        description: 'Neem gerust contact op voor optredens, workshops, culturele uitwisseling of een live muziekconcept op maat voor jouw evenement.',
+      },
     ],
     galleryLabel: 'Beeldgalerij',
-    galleryTitle: 'Galerij Van Optredens En Events',
-    galleryIntro: 'Deze selectie laat de sterkste eerste beelden zien voor de homepage: een groot podiumbeeld, een artistiek soloportret, een repetitiemoment, een eventfoto en een publieksbeeld.',
+    galleryTitle: 'Galerij van optredens en events',
+    galleryIntro: '',
     galleryItems: performanceGalleryItems,
     legalPanels: [
-      { id: 'terms', eyebrow: 'Met Wie Wij Werken', description: 'Wij werken graag samen met festivals, culturele organisaties, cafes, bars, hospitalitylocaties, scholen, musea, galeries en community-partners die op zoek zijn naar een onderscheidende en gastvrije live muziekervaring.' },
+      {
+        id: 'terms',
+        eyebrow: 'Met wie wij werken',
+        description:
+          'Wij werken graag samen met festivals, culturele organisaties, cafés, bars, hospitalitylocaties, scholen, musea, galeries en communitypartners die op zoek zijn naar een onderscheidende en gastvrije live muziekervaring.',
+      },
       { eyebrow: 'Boeking', description: 'Email: asian.art.performance@gmail.com\nPhone: 0613530981' },
-      { id: 'privacy', eyebrow: 'Passend Voor Jouw Event', description: 'Of je nu een intieme culturele avond, een levendig publiek evenement, een cross-cultureel programma of een educatieve workshop organiseert, wij denken graag mee over een optreden dat past bij jouw publiek en locatie.' },
+      {
+        id: 'privacy',
+        eyebrow: 'Passend voor jouw event',
+        description:
+          'Of je nu een intieme culturele avond, een levendig publiek evenement, een crosscultureel programma of een educatieve workshop organiseert, wij denken graag mee over een optreden dat past bij jouw publiek en locatie.',
+      },
     ],
     heroEyebrow: 'In Nederland gevestigd live Aziatisch instrumentaal ensemble',
-    heroCaption: 'Fenghua verzorgt expressieve live optredens, culturele programma’s en instrumentale workshops in heel Nederland, met muziek die zich natuurlijk beweegt van rustig en sfeervol naar levendig, feestelijk en vol energie.',
+    heroCaption:
+      'Fenghua verzorgt expressieve live optredens, culturele programma’s en instrumentale workshops in heel Nederland, met muziek die zich natuurlijk beweegt van rustig en sfeervol naar levendig, feestelijk en vol energie.',
     heroQuote: 'Traditionele instrumenten, hedendaagse warmte en een live sfeer die blijft hangen.',
     featuredAria: 'Uitgelichte onderdelen',
     archiveAria: 'Ensemble-informatie',
@@ -341,7 +548,7 @@ const copy: Record<Locale, Copy> = {
     mobileNavigationAria: 'Mobiele navigatie',
     closeSearchLabel: 'Zoeken sluiten',
     searchLabel: 'Zoek in het ensemble',
-    searchPlaceholder: 'Zoek programma’s, instrumenten, workshops...',
+    searchPlaceholder: 'Zoek optredens, instrumenten, workshops...',
     searchHint: 'Druk op enter om te sluiten of ESC om af te sluiten',
   },
   de: {
@@ -350,49 +557,118 @@ const copy: Record<Locale, Copy> = {
     primaryNav: [
       { label: 'Start', href: '#home' },
       { label: 'Über uns', href: '#about' },
-      { label: 'Programme', href: '#programs' },
-      { label: 'Repertoire', href: '#repertoire' },
-      { label: 'Workshops', href: '#workshops' },
-      { label: 'Atmosphäre', href: '#gallery' },
+      { label: 'Live-Auftritte', href: '#programs' },
+      { label: 'Workshops', href: '#repertoire' },
+      { label: 'Private Veranstaltungen', href: '#workshops' },
+      { label: 'Galerie', href: '#gallery' },
       { label: 'Buchung', href: '#contact' },
     ],
     footerLinks: [
-      { label: 'Programme', href: '#programs' },
+      { label: 'Live-Auftritte', href: '#programs' },
+      { label: 'Galerie', href: '#gallery' },
       { label: 'Buchung', href: '#contact' },
-      { label: 'Datenschutz', href: '#privacy' },
     ],
     quickLinks: sharedQuickLinks.de,
     featureCards: [
-      { title: 'Elegante Auftritte', subtitle: 'intime und stilvolle Live-Musik', href: '#about', image: '/assets/card-guzheng.svg' },
-      { title: 'Kulturveranstaltungen', subtitle: 'für kulturellen Austausch und Live-Formate', href: '#programs', image: '/assets/card-pipa.svg' },
-      { title: 'Workshops & Unterricht', subtitle: 'Instrumentenvorstellung und Lernen', href: '#repertoire', image: '/assets/card-erhu.svg' },
-      { title: 'Festliche Feiern', subtitle: 'von fein bis freudig und energiegeladen', href: '#workshops', image: '/assets/card-dialogue.svg' },
+      { title: 'Über Fenghua', subtitle: 'seit über zehn Jahren in den Niederlanden verwurzelt', href: '#about', image: '/assets/card-guzheng.svg' },
+      { title: 'Live-Auftritte', subtitle: 'für Festivals, Community-Events und Bühnenprogramme', href: '#programs', image: '/assets/card-pipa.svg' },
+      { title: 'Workshops', subtitle: 'Guzheng- und Pipa-Erlebnisse', href: '#repertoire', image: '/assets/card-erhu.svg' },
+      { title: 'Private Veranstaltungen', subtitle: 'maßgeschneiderte Auftritte für Feiern und Begegnungen', href: '#workshops', image: '/assets/card-dialogue.svg' },
     ],
     archivePanels: [
-      { id: 'about', eyebrow: 'Ensembleprofil', title: 'Fenghua', description: 'Fenghua ist ein in den Niederlanden ansässiges asiatisches Musikensemble, das die Schönheit traditioneller Instrumente einem zeitgenössischen Publikum näherbringt. Verwurzelt in chinesischer Musik und offen für einen breiteren asiatischen Instrumentaldialog schaffen wir Aufführungen, die warm, ausdrucksstark und lebendig wirken.' },
-      { id: 'programs', eyebrow: 'Auftrittsbereiche', title: 'Programme', description: 'Wir treten bei einer großen Bandbreite von Veranstaltungen in den Niederlanden auf, darunter Cafés, Bars, intime Kunstorte, Festivals, Kulturprogramme, Community-Events, private Veranstaltungen, Museen und Galerien.' },
-      { id: 'repertoire', eyebrow: 'Musikalische Richtung', title: 'Repertoire', description: 'Unser Repertoire kann an den Anlass angepasst werden: von ruhigen, meditativen und atmosphärischen Sets bis hin zu festlichen, energiegeladenen Programmen voller Farbe, Bewegung und Bühnenpräsenz.' },
-      { id: 'workshops', eyebrow: 'Vermittlung', title: 'Workshops', description: 'Wir bieten außerdem Workshops, Lecture-Demonstrations und Instrumentalunterricht an und vermitteln Publikum und Schülern Spieltechniken, musikalische Traditionen und den Charakter jedes Instruments.' },
-      { id: 'gallery', eyebrow: 'Live-Atmosphäre', title: 'Atmosphäre', description: 'Ob ruhig und nachdenklich oder lebendig und festlich: Wir gestalten gern eine musikalische Atmosphäre, die zum Publikum, zum Raum und zur Stimmung der Veranstaltung passt.' },
-      { id: 'program-pipa', eyebrow: 'Kulturveranstaltungen', title: 'Kulturveranstaltungen', description: 'Wir gestalten Live-Musik für verschiedenste Kulturveranstaltungen, darunter interkulturelle Programme, künstlerische Begegnungen, Café- und Barveranstaltungen, Community-Projekte und Auftritte in unterschiedlichen Formaten.' },
-      { id: 'program-erhu', eyebrow: 'Bildungsformat', title: 'Workshops & Unterricht', description: 'Unsere Unterrichtsformate eignen sich für Schulen, Community-Programme und Kunstorganisationen und verbinden Demonstration, Erklärung und praktisches musikalisches Entdecken in einer offenen und freundlichen Atmosphäre.' },
-      { id: 'program-dialogue', eyebrow: 'Bühnenformat', title: 'Festliche Feiern', description: 'Für saisonale Feiern, öffentliche Feste und größere Bühnen präsentieren wir gern lebendigere Sets mit Rhythmus, Bewegung und einer warmen, festlichen Ausstrahlung.' },
+      {
+        id: 'about',
+        eyebrow: 'Über uns',
+        title: 'Fenghua',
+        description:
+          'Fenghua Arts Ensemble ist seit über zehn Jahren in den Niederlanden verwurzelt und vermittelt die Schönheit chinesischer traditioneller Musik und Kunst an ein vielfältiges Publikum. Mit Aufführungen, kulturellen Aktivitäten und Unterricht möchten wir das kulturelle Leben in der Gemeinschaft bereichern, Austausch fördern und mehr Menschen die Wärme traditioneller Künste näherbringen.',
+      },
+      {
+        id: 'programs',
+        eyebrow: 'Angebot',
+        title: 'Live-Auftritte',
+        description:
+          'Wir gestalten Live-Auftritte für Festivals, Community-Events, Bühnenprogramme, kulturelle Präsentationen und festliche Anlässe. Jedes Set wird auf Raum und Publikum abgestimmt, von intim und ruhig bis lebendig und offen.',
+      },
+      {
+        id: 'repertoire',
+        eyebrow: 'Bildung',
+        title: 'Workshops',
+        description:
+          'Derzeit bieten wir einführende und edukative Workshops für Guzheng und Pipa an, geeignet für Schulen, Community-Gruppen, kulturelles Lernen, Musikvermittlung und praktische künstlerische Erfahrung.',
+      },
+      {
+        id: 'workshops',
+        eyebrow: 'Individuelle Formate',
+        title: 'Private Veranstaltungen',
+        description:
+          'Wir gestalten auch Aufführungen für private und maßgeschneiderte Veranstaltungen, darunter Firmenanlässe, private Feiern, Empfänge und besondere kulturelle Formate, immer passend zur Atmosphäre und zum Publikum.',
+      },
+      {
+        id: 'gallery',
+        eyebrow: 'Live-Atmosphäre',
+        title: 'Atmosphäre',
+        description:
+          'Ob ruhig und nachdenklich oder lebendig und festlich: Wir gestalten gern eine musikalische Atmosphäre, die zum Publikum, zum Raum und zur Stimmung der Veranstaltung passt.',
+      },
+      {
+        id: 'program-pipa',
+        eyebrow: 'Kulturveranstaltungen',
+        title: 'Kulturveranstaltungen',
+        description:
+          'Wir gestalten Live-Musik für verschiedenste Kulturveranstaltungen, darunter interkulturelle Programme, künstlerische Begegnungen, Café- und Barveranstaltungen, Community-Projekte und Auftritte in unterschiedlichen Formaten.',
+      },
+      {
+        id: 'program-erhu',
+        eyebrow: 'Bildungsformat',
+        title: 'Workshops & Unterricht',
+        description:
+          'Unsere Unterrichtsformate eignen sich für Schulen, Community-Programme und Kunstorganisationen und verbinden Demonstration, Erklärung und praktisches musikalisches Entdecken in einer offenen und freundlichen Atmosphäre.',
+      },
+      {
+        id: 'program-dialogue',
+        eyebrow: 'Bühnenformat',
+        title: 'Festliche Feiern',
+        description:
+          'Für saisonale Feiern, öffentliche Feste und größere Bühnen präsentieren wir gern lebendigere Sets mit Rhythmus, Bewegung und einer warmen, festlichen Ausstrahlung.',
+      },
     ],
     channelPanels: [
-      { id: 'contact', title: 'Buchung', handle: 'asian.art.performance@gmail.com', description: 'Wir freuen uns über Anfragen von Festivals, Kulturorganisationen, Hospitality-Locations, Schulen und Community-Partnern in den Niederlanden.' },
-      { id: 'phone', title: 'Telefon', handle: '0613530981', description: 'Kontaktieren Sie uns gern für Auftritte, Workshops, Kulturprogramme oder ein maßgeschneidertes Live-Musikkonzept für Ihre Veranstaltung.' },
+      {
+        id: 'contact',
+        title: 'Buchung',
+        handle: 'asian.art.performance@gmail.com',
+        description: 'Wir freuen uns über Anfragen von Festivals, Kulturorganisationen, Hospitality-Locations, Schulen und Community-Partnern in den Niederlanden.',
+      },
+      {
+        id: 'phone',
+        title: 'Telefon',
+        handle: '0613530981',
+        description: 'Kontaktieren Sie uns gern für Auftritte, Workshops, Kulturprogramme oder ein maßgeschneidertes Live-Musikkonzept für Ihre Veranstaltung.',
+      },
     ],
     galleryLabel: 'Bildgalerie',
-    galleryTitle: 'Galerie Für Auftritte Und Veranstaltungen',
-    galleryIntro: 'Diese Auswahl zeigt die stärksten ersten Bilder für die Startseite: eine große Bühnenszene, ein künstlerisches Soloporträt, einen Probenmoment, eine Eventaufnahme und ein Bild mit Publikum.',
+    galleryTitle: 'Galerie für Auftritte und Veranstaltungen',
+    galleryIntro: '',
     galleryItems: performanceGalleryItems,
     legalPanels: [
-      { id: 'terms', eyebrow: 'Mit Wem Wir Arbeiten', description: 'Wir arbeiten gern mit Festivals, Kulturorganisationen, Cafés, Bars, Hospitality-Locations, Schulen, Museen, Galerien und Community-Partnern zusammen, die nach einem besonderen und einladenden Live-Musikerlebnis suchen.' },
+      {
+        id: 'terms',
+        eyebrow: 'Mit wem wir arbeiten',
+        description:
+          'Wir arbeiten gern mit Festivals, Kulturorganisationen, Cafés, Bars, Hospitality-Locations, Schulen, Museen, Galerien und Community-Partnern zusammen, die nach einem besonderen und einladenden Live-Musikerlebnis suchen.',
+      },
       { eyebrow: 'Buchung', description: 'Email: asian.art.performance@gmail.com\nPhone: 0613530981' },
-      { id: 'privacy', eyebrow: 'Passend Für Ihr Event', description: 'Ob Sie einen intimen Kulturabend, ein lebendiges öffentliches Event, ein interkulturelles Programm oder einen Bildungsworkshop planen: Wir gestalten gern eine Performance, die zu Ihrem Publikum und Ihrem Raum passt.' },
+      {
+        id: 'privacy',
+        eyebrow: 'Passend für Ihr Event',
+        description:
+          'Ob Sie einen intimen Kulturabend, ein lebendiges öffentliches Event, ein interkulturelles Programm oder einen Bildungsworkshop planen: Wir gestalten gern eine Performance, die zu Ihrem Publikum und Ihrem Raum passt.',
+      },
     ],
     heroEyebrow: 'Live asiatisches Instrumentalensemble mit Sitz in den Niederlanden',
-    heroCaption: 'Fenghua bietet ausdrucksstarke Live-Auftritte, Kulturprogramme und Instrumentalworkshops in den Niederlanden, mit Musik, die sich natürlich von ruhig und atmosphärisch zu lebendig, festlich und energiegeladen bewegt.',
+    heroCaption:
+      'Fenghua bietet ausdrucksstarke Live-Auftritte, Kulturprogramme und Instrumentalworkshops in den Niederlanden, mit Musik, die sich natürlich von ruhig und atmosphärisch zu lebendig, festlich und energiegeladen bewegt.',
     heroQuote: 'Traditionelle Instrumente, zeitgenössische Wärme und eine Live-Atmosphäre, die in Erinnerung bleibt.',
     featuredAria: 'Ausgewählte Inhalte',
     archiveAria: 'Ensembleinformationen',
@@ -411,7 +687,7 @@ const copy: Record<Locale, Copy> = {
     mobileNavigationAria: 'Mobile Navigation',
     closeSearchLabel: 'Suche schließen',
     searchLabel: 'Im Ensemble suchen',
-    searchPlaceholder: 'Programme, Instrumente, Workshops suchen...',
+    searchPlaceholder: 'Auftritte, Instrumente, Workshops suchen...',
     searchHint: 'Zum Schließen Enter drücken oder ESC verwenden',
   },
 }
@@ -656,7 +932,7 @@ function App() {
           ))}
         </section>
 
-        <section className="gallery-showcase" aria-label={t.galleryLabel}>
+        <section className="gallery-showcase" aria-label={t.galleryLabel} id="gallery">
           <div className="gallery-showcase__heading">
             <p className="gallery-showcase__eyebrow">{t.galleryLabel}</p>
             <h2>{t.galleryTitle}</h2>
@@ -710,7 +986,6 @@ function App() {
             </article>
           ))}
         </section>
-
       </main>
 
       <footer className="site-footer">
