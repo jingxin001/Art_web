@@ -280,8 +280,6 @@ const copy: Record<Locale, Copy> = {
       { label: 'Home', href: '#home' },
       { label: 'About Us', href: '#about' },
       { label: 'Live Performance', href: '#programs' },
-      { label: 'Teaching Workshops', href: '#repertoire' },
-      { label: 'Private Events', href: '#workshops' },
       { label: 'Gallery', href: '#gallery' },
       { label: 'Booking', href: '#contact' },
     ],
@@ -293,7 +291,7 @@ const copy: Record<Locale, Copy> = {
     quickLinks: sharedQuickLinks.en,
     featureCards: [
       { title: 'About Fenghua', subtitle: 'rooted in the Netherlands for over ten years', href: '#about', image: '/assets/card-guzheng.svg' },
-      { title: 'Live Performance', subtitle: 'for festivals, community events, and stage programmes', href: '#programs', image: '/assets/card-pipa.svg' },
+      { title: 'Live Performance', subtitle: 'for cafes, cultural venues, and intimate events', href: '#programs', image: '/assets/card-pipa.svg' },
       { title: 'Teaching Workshops', subtitle: 'guzheng and pipa learning experiences', href: '#repertoire', image: '/assets/card-erhu.svg' },
       { title: 'Private Events', subtitle: 'tailored performances for gatherings and celebrations', href: '#workshops', image: '/assets/card-dialogue.svg' },
     ],
@@ -310,7 +308,7 @@ const copy: Record<Locale, Copy> = {
         eyebrow: 'Services',
         title: 'Live Performance',
         description:
-          'We offer live performances for festivals, community events, stage programmes, cultural presentations, and festive celebrations. Each set is shaped to suit the space and audience, from intimate and reflective to lively and open.',
+          'We offer elegant Asian instrumental performances for cafes, bars, cultural venues, and intimate gatherings. Each set is shaped to suit the space and audience, from soft background atmosphere to a focused live music moment.',
       },
       {
         id: 'repertoire',
@@ -371,7 +369,7 @@ const copy: Record<Locale, Copy> = {
     ],
     galleryLabel: 'Image Gallery',
     galleryTitle: 'Performance & Event Gallery',
-    galleryIntro: '',
+    galleryIntro: 'A glimpse of our instruments, stage moments, and live atmosphere, from intimate settings to cultural events across the Netherlands.',
     galleryItems: performanceGalleryItems,
     legalPanels: [
       {
@@ -388,10 +386,10 @@ const copy: Record<Locale, Copy> = {
           'Whether you are planning an intimate cultural evening, a lively public event, a cross-cultural programme, or an educational workshop, we are happy to shape a performance that fits your audience and space.',
       },
     ],
-    heroEyebrow: 'Netherlands-based live Asian instrumental performance',
+    heroEyebrow: 'Live Asian music for cafes, cultural venues, and intimate events',
     heroCaption:
-      'Fenghua offers expressive live performances, cultural programmes, and instrumental workshops across the Netherlands, with music that moves naturally from quiet and atmospheric to vibrant, festive, and full of energy.',
-    heroQuote: 'Traditional instruments, contemporary warmth, and memorable live atmosphere.',
+      'Fenghua brings elegant Asian instrumental performances to hospitality spaces and cultural events across the Netherlands, creating a warm live atmosphere that can be shaped to your venue and audience.',
+    heroQuote: 'Traditional instruments, contemporary warmth, and a live experience made for close audiences.',
     featuredAria: 'Featured destinations',
     archiveAria: 'Ensemble information',
     channelsAria: 'Contact panels',
@@ -905,7 +903,7 @@ function App() {
         </section>
 
         <section className="feature-grid" aria-label={t.featuredAria}>
-          {t.featureCards.map((card) => (
+          {t.featureCards.slice(0, 2).map((card) => (
             <article key={card.title} className="feature-card">
               <a className="feature-card__link" href={card.href} onClick={closePanels}>
                 <div
@@ -923,7 +921,7 @@ function App() {
         </section>
 
         <section className="archive-grid" aria-label={t.archiveAria}>
-          {t.archivePanels.slice(0, 4).map((panel) => (
+          {t.archivePanels.slice(0, 2).map((panel) => (
             <article key={panel.id} className="archive-panel" id={panel.id}>
               <p className="archive-panel__eyebrow">{panel.eyebrow}</p>
               <h2>{panel.title}</h2>
