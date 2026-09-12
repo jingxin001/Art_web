@@ -870,35 +870,36 @@ function App() {
       </header>
 
       <main>
-        <section className="hero-panel" id="home">
-          <div className="hero-panel__backdrop" />
-          <div className="hero-panel__grain" />
+        <div className="intro-layout">
+          <section className="hero-panel" id="home">
+            <div className="hero-panel__backdrop" />
+            <div className="hero-panel__grain" />
 
-          <div className="hero-panel__content">
-            <div className="hero-panel__brand">
-              <div className="hero-side-logo" aria-hidden="true">
-                <img src="/assets/fenghua-logo-white.png" alt="" />
+            <div className="hero-panel__content">
+              <div className="hero-panel__brand">
+                <div className="hero-side-logo" aria-hidden="true">
+                  <img src="/assets/fenghua-logo-white.png" alt="" />
+                </div>
+                <p className="hero-panel__eyebrow">{t.heroEyebrow}</p>
+                <div className="hero-wordmark" aria-hidden="true">
+                  <span>FENG</span>
+                  <span>HUA</span>
+                </div>
+                <p className="hero-panel__caption">{t.heroCaption}</p>
               </div>
-              <p className="hero-panel__eyebrow">{t.heroEyebrow}</p>
-              <div className="hero-wordmark" aria-hidden="true">
-                <span>FENG</span>
-                <span>HUA</span>
-              </div>
-              <p className="hero-panel__caption">{t.heroCaption}</p>
             </div>
+          </section>
 
-          </div>
-        </section>
-
-        <section className="archive-grid" aria-label={t.archiveAria}>
-          {t.archivePanels.slice(0, 2).map((panel) => (
-            <article key={panel.id} className="archive-panel" id={panel.id}>
-              <p className="archive-panel__eyebrow">{panel.eyebrow}</p>
-              <h2>{panel.title}</h2>
-              <p>{panel.description}</p>
-            </article>
-          ))}
-        </section>
+          <section className="archive-grid" aria-label={t.archiveAria}>
+            {t.archivePanels.slice(0, 2).map((panel) => (
+              <article key={panel.id} className="archive-panel" id={panel.id}>
+                <p className="archive-panel__eyebrow">{panel.eyebrow}</p>
+                <h2>{panel.title}</h2>
+                <p>{panel.description}</p>
+              </article>
+            ))}
+          </section>
+        </div>
 
         <section className="gallery-showcase" aria-label={t.galleryLabel} id="gallery">
           <div className="gallery-showcase__heading">
