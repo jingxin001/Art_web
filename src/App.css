@@ -477,15 +477,21 @@
 }
 
 .intro-layout .archive-grid {
+  margin-top: 8.25rem;
   grid-template-columns: 1fr;
-  grid-template-rows: repeat(3, minmax(0, 1fr));
+  grid-template-rows: repeat(3, minmax(18rem, 1fr));
 }
 
 .intro-layout .archive-panel {
-  min-height: 0;
+  min-height: 18rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding: clamp(1.7rem, 2vw, 2.4rem);
+}
+
+.intro-layout .archive-panel h2 {
+  font-size: clamp(1.9rem, 2.4vw, 2.8rem);
 }
 
 .archive-panel,
@@ -891,8 +897,18 @@
   }
 
   .intro-layout .archive-grid {
+    margin-top: 0;
     grid-template-columns: repeat(2, minmax(0, 1fr));
     grid-template-rows: auto;
+  }
+
+  .intro-layout .archive-panel {
+    min-height: clamp(15rem, 18vw, 18rem);
+    padding: clamp(1.7rem, 3vw, 3rem);
+  }
+
+  .intro-layout .archive-panel h2 {
+    font-size: clamp(2.15rem, 3vw, 3.35rem);
   }
 
   .hero-side-logo {
