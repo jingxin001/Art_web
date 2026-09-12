@@ -141,8 +141,6 @@ const copy: Record<Locale, Copy> = {
       { label: '首页', href: '#home' },
       { label: '关于我们', href: '#about' },
       { label: '现场演出', href: '#programs' },
-      { label: '教学工作坊', href: '#repertoire' },
-      { label: '私人活动', href: '#workshops' },
       { label: '图片展示', href: '#gallery' },
       { label: '预约联系', href: '#contact' },
     ],
@@ -417,8 +415,6 @@ const copy: Record<Locale, Copy> = {
       { label: 'Home', href: '#home' },
       { label: 'Over ons', href: '#about' },
       { label: 'Live Performance', href: '#programs' },
-      { label: 'Workshops', href: '#repertoire' },
-      { label: 'Privé-evenementen', href: '#workshops' },
       { label: 'Galerij', href: '#gallery' },
       { label: 'Boeking', href: '#contact' },
     ],
@@ -556,8 +552,6 @@ const copy: Record<Locale, Copy> = {
       { label: 'Start', href: '#home' },
       { label: 'Über uns', href: '#about' },
       { label: 'Live-Auftritte', href: '#programs' },
-      { label: 'Workshops', href: '#repertoire' },
-      { label: 'Private Veranstaltungen', href: '#workshops' },
       { label: 'Galerie', href: '#gallery' },
       { label: 'Buchung', href: '#contact' },
     ],
@@ -900,24 +894,6 @@ function App() {
 
             <blockquote className="hero-quote">{t.heroQuote}</blockquote>
           </div>
-        </section>
-
-        <section className="feature-grid" aria-label={t.featuredAria}>
-          {t.featureCards.slice(0, 2).map((card) => (
-            <article key={card.title} className="feature-card">
-              <a className="feature-card__link" href={card.href} onClick={closePanels}>
-                <div
-                  className="feature-card__image"
-                  style={{ backgroundImage: `url(${card.image})` }}
-                />
-                <div className="feature-card__overlay" />
-                <div className="feature-card__content">
-                  <h2>{card.title}</h2>
-                  <p>{card.subtitle}</p>
-                </div>
-              </a>
-            </article>
-          ))}
         </section>
 
         <section className="archive-grid" aria-label={t.archiveAria}>
