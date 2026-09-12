@@ -104,6 +104,9 @@ const performanceGalleryItems: GalleryItem[] = [
   { image: '/演出照片/琵琶古筝.jpg' },
   { image: '/演出照片/古筝6.jpg' },
   { image: '/演出照片/萨克斯2.jpg', layout: 'featured' },
+  { image: '/演出照片/dance-ballet-stage.jpg' },
+  { image: '/演出照片/dance-ballet-class.jpg' },
+  { image: '/演出照片/dance-ballet-group.jpg', layout: 'portrait' },
   { image: '/演出照片/团体合照.jpg', layout: 'featured' },
   { image: '/演出照片/团体合照3.jpg', layout: 'featured' },
   { image: '/演出照片/古筝2.jpg', layout: 'portrait' },
@@ -169,6 +172,13 @@ const copy: Record<Locale, Copy> = {
         title: '现场演出',
         description:
           '我们提供现场演出，适用于文化节、社区活动、节庆庆典、艺术展演与舞台节目。演出形式可根据空间与观众调整，从细腻安静到热烈开阔，保持自然的文化气质。',
+      },
+      {
+        id: 'dance',
+        eyebrow: '舞蹈艺术',
+        title: '风华舞蹈团',
+        description:
+          '风华舞蹈团呈现芭蕾舞、街舞等多种舞蹈形式，适合文化活动、舞台演出与节庆场合，为观众带来多元而富有活力的舞蹈体验。',
       },
       {
         id: 'repertoire',
@@ -307,6 +317,13 @@ const copy: Record<Locale, Copy> = {
           'We offer elegant Asian instrumental performances for cafes, bars, cultural venues, and intimate gatherings. Each set is shaped to suit the space and audience, from soft background atmosphere to a focused live music moment.',
       },
       {
+        id: 'dance',
+        eyebrow: 'Dance',
+        title: 'Fenghua Dance Ensemble',
+        description:
+          'Fenghua Dance Ensemble brings together ballet, street dance, and other dance styles for cultural events, stage performances, and festive occasions, offering audiences a varied and lively dance experience.',
+      },
+      {
         id: 'repertoire',
         eyebrow: 'Education',
         title: 'Teaching Workshops',
@@ -443,6 +460,13 @@ const copy: Record<Locale, Copy> = {
           'Wij verzorgen live optredens voor festivals, community events, podiumprogramma’s, culturele presentaties en feestelijke vieringen. Elke set wordt afgestemd op locatie en publiek, van intiem en verstild tot levendig en open.',
       },
       {
+        id: 'dance',
+        eyebrow: 'Dans',
+        title: 'Fenghua Dansensemble',
+        description:
+          'Het Fenghua Dansensemble brengt ballet, streetdance en andere dansstijlen samen voor culturele activiteiten, podiumoptredens en feestelijke gelegenheden, met een veelzijdige en levendige danservaring.',
+      },
+      {
         id: 'repertoire',
         eyebrow: 'Educatie',
         title: 'Workshops',
@@ -577,6 +601,13 @@ const copy: Record<Locale, Copy> = {
         title: 'Live-Auftritte',
         description:
           'Wir gestalten Live-Auftritte für Festivals, Community-Events, Bühnenprogramme, kulturelle Präsentationen und festliche Anlässe. Jedes Set wird auf Raum und Publikum abgestimmt, von intim und ruhig bis lebendig und offen.',
+      },
+      {
+        id: 'dance',
+        eyebrow: 'Tanz',
+        title: 'Fenghua Tanzensemble',
+        description:
+          'Das Fenghua Tanzensemble verbindet Ballett, Streetdance und weitere Tanzstile für Kulturveranstaltungen, Bühnenauftritte und festliche Anlässe und schafft ein vielseitiges, lebendiges Tanzerlebnis.',
       },
       {
         id: 'repertoire',
@@ -891,7 +922,7 @@ function App() {
           </section>
 
           <section className="archive-grid" aria-label={t.archiveAria}>
-            {t.archivePanels.slice(0, 2).map((panel) => (
+            {t.archivePanels.slice(0, 3).map((panel) => (
               <article key={panel.id} className="archive-panel" id={panel.id}>
                 <p className="archive-panel__eyebrow">{panel.eyebrow}</p>
                 <h2>{panel.title}</h2>
