@@ -62,7 +62,6 @@ type Copy = {
   legalPanels: LegalPanel[]
   heroEyebrow: string
   heroCaption: string
-  heroQuote: string
   featuredAria: string
   archiveAria: string
   channelsAria: string
@@ -250,7 +249,6 @@ const copy: Record<Locale, Copy> = {
     heroEyebrow: '立足荷兰的亚洲民族器乐现场演出',
     heroCaption:
       '风华艺术团在荷兰提供富有感染力的现场演出、文化项目与器乐工作坊，音乐气质可以从安静细腻的氛围感，自然过渡到热烈、欢庆、充满能量的舞台表达。',
-    heroQuote: '传统器乐，当代表达，温暖而难忘的现场氛围。',
     featuredAria: '特色内容',
     archiveAria: '艺术团信息',
     channelsAria: '联系信息',
@@ -387,7 +385,6 @@ const copy: Record<Locale, Copy> = {
     heroEyebrow: 'Live Asian music for cafes, cultural venues, and intimate events',
     heroCaption:
       'Fenghua brings elegant Asian instrumental performances to hospitality spaces and cultural events across the Netherlands, creating a warm live atmosphere that can be shaped to your venue and audience.',
-    heroQuote: 'Traditional instruments, contemporary warmth, and a live experience made for close audiences.',
     featuredAria: 'Featured destinations',
     archiveAria: 'Ensemble information',
     channelsAria: 'Contact panels',
@@ -524,7 +521,6 @@ const copy: Record<Locale, Copy> = {
     heroEyebrow: 'In Nederland gevestigd live Aziatisch instrumentaal ensemble',
     heroCaption:
       'Fenghua verzorgt expressieve live optredens, culturele programma’s en instrumentale workshops in heel Nederland, met muziek die zich natuurlijk beweegt van rustig en sfeervol naar levendig, feestelijk en vol energie.',
-    heroQuote: 'Traditionele instrumenten, hedendaagse warmte en een live sfeer die blijft hangen.',
     featuredAria: 'Uitgelichte onderdelen',
     archiveAria: 'Ensemble-informatie',
     channelsAria: 'Contactgegevens',
@@ -661,7 +657,6 @@ const copy: Record<Locale, Copy> = {
     heroEyebrow: 'Live asiatisches Instrumentalensemble mit Sitz in den Niederlanden',
     heroCaption:
       'Fenghua bietet ausdrucksstarke Live-Auftritte, Kulturprogramme und Instrumentalworkshops in den Niederlanden, mit Musik, die sich natürlich von ruhig und atmosphärisch zu lebendig, festlich und energiegeladen bewegt.',
-    heroQuote: 'Traditionelle Instrumente, zeitgenössische Wärme und eine Live-Atmosphäre, die in Erinnerung bleibt.',
     featuredAria: 'Ausgewählte Inhalte',
     archiveAria: 'Ensembleinformationen',
     channelsAria: 'Kontaktinformationen',
@@ -892,7 +887,6 @@ function App() {
               <p className="hero-panel__caption">{t.heroCaption}</p>
             </div>
 
-            <blockquote className="hero-quote">{t.heroQuote}</blockquote>
           </div>
         </section>
 

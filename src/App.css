@@ -300,7 +300,7 @@
   margin: 0 auto;
   padding: 11.5rem clamp(1.4rem, 3vw, 2.8rem) clamp(7rem, 12vw, 10rem);
   display: grid;
-  grid-template-columns: minmax(0, 1.1fr) minmax(18rem, 0.75fr);
+  grid-template-columns: 1fr;
   align-items: end;
   gap: clamp(1.8rem, 5vw, 4.2rem);
 }
@@ -361,21 +361,6 @@
   color: rgba(255, 255, 255, 0.68);
   font-size: 0.95rem;
   letter-spacing: 0.03em;
-}
-
-.hero-quote {
-  margin: 0;
-  padding: 1.6rem 0 0;
-  font-family: var(--font-display);
-  font-size: clamp(1.9rem, 3.2vw, 3rem);
-  line-height: 1.02;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  text-align: right;
-  border-top: 1px solid rgba(255, 255, 255, 0.18);
-  text-wrap: balance;
-  max-width: 28rem;
-  justify-self: end;
 }
 
 .feature-grid {
@@ -897,12 +882,6 @@
 
   .hero-panel__content {
     grid-template-columns: 1fr;
-  }
-
-  .hero-quote {
-    justify-self: start;
-    text-align: left;
-    max-width: 34rem;
   }
 
   .feature-grid {
